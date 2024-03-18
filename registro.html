@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta name="keywords" content="html, 50 viviendas, centro vecinal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro Vecinal de las 50 viviendas creado para ayudar en las gestiones de los vecinos">
+    <meta name="author" content="Abel Nestor Peñaloza">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav>
+             <ul>
+                <li><a href="index.html" >Inicio</a></li>   
+                <li><a href="noticias.html" >Noticias</a></li>
+                <li><a href="registro.html">Registar Socio</a></li>
+                <li><a href="socios.html">Socios</a></li>
+             </ul>
+        </nav> 
+     </header>
+     <h2>Formulario de Regitro</h2>
+    <form method="post">
+        <input type="text" id="nombres" name="nombres" placeholder="Nombres" required=""> 
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required="">
+        <br>
+        <input type="text" id="usuario" name="usuario" placeholder="usuario" required="">
+        <br>
+        <input type="password" id="password" name="password" placeholder="Password" required="">
+        <br>
+        <input type="password" id="password2" name="password2" placeholder="Repetir Password" required="">
+        <br>
+        <input type="tel" id="telefono" name="telefono" placeholder="Telefono">
+        <br>
+        <label for="nacimineto">Fecha de Nacimiento:</label>
+        <br>
+        <input type="date" id="date" name="date" placeholder="Fecha de Nacimiento">
+        <br>
+        <input type="email" id="email" name="email" placeholder="Correo Electronico">
+        <br>
+        <input type="file" name="">
+        <br>
+        <label>Genero:</label>
+        <br>
+        <input type="radio" id="femenino" name="sexo" value="1">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="sexo" value="1">
+        <label for="masculino">masculino</label>
+        <input type="radio" id="otro" name="sexo" value="1">
+        <label for="otro">Otros</label>
+        <br>
+        <select name="pais">
+            <option selected disabled hidden>Pais de origen</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Bolivia</option>
+            <option value="4">Chile</option>
+            <option value="5">Uruguay</option>
+            <option value="6">Mexico</option>
+            <option value="7">Peru</option>
+        </select>
+        <br>
+        <input type="checkbox" name="terminos" />Acepto los terminos y condiciones
+        <br>
+        <input type="submit" value="Registrar">
+        <br>
+        <input type="reset" value="Cancelar">
+        <br>
+    </form>
+    <footer>
+        <h4>Copyright - Derechos Reservados</h4>
+    </footer>
+</body>
+</html>
